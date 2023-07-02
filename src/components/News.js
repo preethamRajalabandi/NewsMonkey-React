@@ -5,68 +5,133 @@ export class News extends Component {
     articles = [
         {
             "source": {
-                "id": "reuters",
-                "name": "Reuters"
+                "id": "bbc-news",
+                "name": "BBC News"
             },
-            "author": null,
-            "title": "Hollywood actors extend contract talks, temporarily averting strike",
-            "description": "Hollywood's actors union and major Hollywood studios agreed on Friday to keep negotiating through mid-July, staving off the immediate threat of a second labor strike in the entertainment business this summer.",
-            "url": "https://www.reuters.com/world/us/hollywood-faces-possible-second-strike-actors-talks-near-deadline-2023-06-30/",
-            "urlToImage": "https://www.reuters.com/resizer/rFHIq0GmCA1pqB8UWyWBSweb30g=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/J3PNOIJMWJL5XAY5PXNC7PCG3E.jpg",
-            "publishedAt": "2023-07-01T03:19:05Z",
-            "content": "LOS ANGELES, June 30 (Reuters) - Hollywood's actors union and major Hollywood studios agreed on Friday to keep negotiating through mid-July, staving off the immediate threat of a second labor strike … [+3167 chars]"
+            "author": "BBC News",
+            "title": "France riots: French minister Gérald Darmanin plays down latest unrest",
+            "description": "Interior Minister Gérald Darmanin says there has been a \"downturn\", but hundreds more people are arrested.",
+            "url": "http://www.bbc.co.uk/news/live/world-europe-66073728",
+            "urlToImage": "https://m.files.bbci.co.uk/modules/bbc-morph-news-waf-page-meta/5.3.0/bbc_news_logo.png",
+            "publishedAt": "2023-07-01T02:52:20.245885Z",
+            "content": "Hello and welcome\r\nto our continued live coverage of the riots in France.\r\nWidespread chaos\r\nhas been reported in cities across France overnight, with some 471 arrests this\r\nevening, according to the… [+464 chars]"
         },
         {
             "source": {
-                "id": "polygon",
-                "name": "Polygon"
+                "id": "bbc-news",
+                "name": "BBC News"
             },
-            "author": "Michael McWhertor",
-            "title": "Lord of the Rings: Gollum developer shuts down, scraps new LOTR game",
-            "description": "Gollum publisher Daedalic Entertainment confirms closure of its internal development department and the cancellation of a second The Lord of the Rings game.",
-            "url": "https://www.polygon.com/23780172/lord-rings-gollum-daedalic-lotr-game-canceled",
-            "urlToImage": "https://cdn.vox-cdn.com/thumbor/4KtAGD2ro18nJ_soS0T01iikQXk=/0x0:1920x1005/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24763620/gollum_2.jpg",
-            "publishedAt": "2023-06-30T18:21:42Z",
-            "content": "Publisher Daedalic Entertainment is closing the Hamburg, Germany-based internal studio that made The Lord of the Rings: Gollum, and has ended development on a second project based on the Lord of the … [+2555 chars]"
+            "author": "BBC News",
+            "title": "Florida murder suspect arrested after 40 years",
+            "description": "Police say the suspect featured thrice on America's Most Wanted and used 13 aliases to evade arrest.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-66073441",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/2EC7/production/_130257911_donald.png",
+            "publishedAt": "2023-07-01T02:07:24.1999232Z",
+            "content": "A Florida murder suspect who featured thrice on America's Most Wanted was arrested after nearly four decades on the run.\r\nDonald Santini, 65, allegedly used 13 aliases to evade arrest for the 1984 mu… [+2230 chars]"
         },
         {
             "source": {
-                "id": "talksport",
-                "name": "TalkSport"
+                "id": "bbc-news",
+                "name": "BBC News"
             },
-            "author": "Cameron Temple",
-            "title": "Eddie Hearn ‘very confident’ Anthony Joshua vs Deontay Wilder will get made after Saudi meeting...",
-            "description": "Eddie Hearn has held further talks with Saudi Arabian representatives over hosting Anthony Joshua vs Deontay Wilder. Saudi Arabia-based promotional company Skills Challenge Entertainment want to ho…",
-            "url": "https://talksport.com/sport/boxing/1484622/eddie-hearn-anthony-joshua-vs-deontay-wilder-saudi-arabia/",
-            "urlToImage": "https://talksport.com/wp-content/uploads/sites/5/2019/03/TALKSPORT-HEARN-WILDER-JOSHUA.jpg?strip=all&quality=100&w=1500&h=1000&crop=1",
-            "publishedAt": "2023-06-30T13:58:28Z",
-            "content": "Eddie Hearn has held further talks with Saudi Arabian representatives over hosting Anthony Joshua vs Deontay Wilder. \r\nSaudi Arabia-based promotional company Skills Challenge Entertainment want to ho… [+1525 chars]"
+            "author": "BBC News",
+            "title": "Sex life of rare 'leopard-print' frog revealed",
+            "description": "An all-female team tracked it down amid deadly snakes and 50C heat in a forest known as 'hell on Earth'.",
+            "url": "http://www.bbc.co.uk/news/science-environment-66001590",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1764/production/_130188950_4.santafefrog-phisisibez.jpg",
+            "publishedAt": "2023-07-01T02:07:23.7781525Z",
+            "content": "An all-female team has braved 50C heat and poisonous snakes to track down a \"leopard-print\" frog virtually unknown to science and learn how it reproduces.\r\nThe Argentinian conservation scientists are… [+3359 chars]"
         },
         {
             "source": {
-                "id": "ign",
-                "name": "IGN"
+                "id": "bbc-news",
+                "name": "BBC News"
             },
-            "author": null,
-            "title": "Big News For Harley Quinn on HBO Max - IGN The Fix: Entertainment - IGN",
-            "description": "<section class=\"video-page\"><p>Harley Quinn season 4 is coming to HBO Max, and fans of the DC animated series are excited. In the wake of a bunch of canceled animated shows, #HBOMax is showing some favor to a special malet-wielding, pigtailed deviant named #H…",
-            "url": "https://www.ign.com/videos/big-news-for-harley-quinn-on-hbo-max-ign-the-fix-entertainment",
-            "urlToImage": "https://assets-prd.ignimgs.com/2022/08/31/efix-083122-blogroll-1661978432833.jpg?width=1280",
-            "publishedAt": "2022-09-01T17:52:24.9579624Z",
-            "content": "Harley Quinn season 4 is coming to HBO Max, and fans of the DC animated series are excited. In the wake of a bunch of canceled animated shows, #HBOMax is showing some favor to a special malet-wieldin… [+239 chars]"
+            "author": "BBC News",
+            "title": "MDMA: Australia begins world-first psychedelic therapy",
+            "description": "The drug and a key ingredient in magic mushrooms will be used nationally to treat PTSD and depression.",
+            "url": "http://www.bbc.co.uk/news/world-australia-66049989",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/143BA/production/_130247828_gettyimages-886138562.jpg",
+            "publishedAt": "2023-07-01T02:07:21.4336953Z",
+            "content": "Earlier this year, researchers raised eyebrows when Australia's traditionally conservative medicines regulator approved the use of psychedelics to assist therapy sessions.\r\nThe decision will see psil… [+6953 chars]"
         },
         {
             "source": {
-                "id": "the-lad-bible",
-                "name": "The Lad Bible"
+                "id": "bbc-news",
+                "name": "BBC News"
             },
-            "author": null,
-            "title": "Breaking Entertainment News - Celebrity & Showbiz News | LADbible",
-            "description": "The latest entertainment news in the UK and worldwide on LADbible. We cover breaking celebrity news and showbiz stories. Check out our exclusives.",
-            "url": "https://www.theladbible.com/entertainment",
-            "urlToImage": null,
-            "publishedAt": "2020-06-18T14:07:50.1068606Z",
-            "content": "Netflix's new fantasy show, Cursed, will launch on 17 July"
+            "author": "BBC News",
+            "title": "Deciphering Vladimir Putin's many appearances since mutiny",
+            "description": "The Russian president has popped up on TV screens multiple times since last weekend's dramatic events - but to what end?",
+            "url": "http://www.bbc.co.uk/news/world-europe-66065551",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/EED9/production/_130254116_c786c9865b2da38dbdd84366b9b8779bc4d42b340_0_3613_25681000x711.jpg",
+            "publishedAt": "2023-07-01T00:07:17.7302661Z",
+            "content": "Media caption, Watch: Three key moments from Putin's unusual week\r\nWhere's Vladimir Putin? That's what we were wondering most of Monday - two days after a dramatic insurrection by the Wagner Group th… [+7655 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "France riots: Nanterre rocked by killing and unrest",
+            "description": "The town of Nanterre is shaken by nights of rioting after 17-year-old Nahel was shot by police.",
+            "url": "http://www.bbc.co.uk/news/world-europe-66070033",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/0B3B/production/_130257820_23e3a31c9fe7e468e20c45843e4c0aede2f954b90_315_4724_26591000x563.jpg",
+            "publishedAt": "2023-07-01T00:07:15.7620058Z",
+            "content": "Come to Nanterre to get an all-round view of the crisis boiling over in France. But if you are a journalist, be advised to keep your head down. \r\nAn approach to a group of young men - some bearded, o… [+7014 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Scorching heat fuels calls for worker protections",
+            "description": "A punishing heat wave in parts of the US has claimed the lives of at least a dozen people.",
+            "url": "http://www.bbc.co.uk/news/business-66070216",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/10027/production/_130257556_whatsubject.jpg",
+            "publishedAt": "2023-06-30T23:07:23.0587037Z",
+            "content": "Worker advocates in the US are renewing calls for protections from extreme temperatures, amid a heat wave that has claimed the lives of at least a dozen people. \r\nCities including Las Vegas and Phoen… [+5232 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "The Supreme Court flexed its conservative muscles. What comes next?",
+            "description": "This week's flurry of decisions showed the sharp divides between the conservative and liberal judges.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-66061849",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/17C05/production/_130258279_supremecourt.jpg",
+            "publishedAt": "2023-06-30T21:37:19.4838063Z",
+            "content": "The Supreme Court ended its term this week with a flurry of decisions that underlined the sharp political and ideological divides between the six conservative judges and their three liberal counterpa… [+3512 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "US Supreme Court rules website designer can refuse to serve same-sex couples",
+            "description": "The decision means states cannot compel artists to express messages against their religious beliefs.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-66070534",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/FEA5/production/_127898156_gettyimages-1245373644.jpg",
+            "publishedAt": "2023-06-30T17:37:22.0908765Z",
+            "content": "The US Supreme Court has ruled in favour of a graphic designer who has refused to create wedding websites for same-sex couples.\r\nLorie Smith, from Colorado, argued she could not serve same-sex couple… [+3542 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "US Supreme Court strikes down student loan forgiveness plan",
+            "description": "The decision means Joe Biden's proposal to wipe out billions in student debt is effectively axed.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-65931653",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9BAA/production/_128805893_gettyimages-1247556593.jpg",
+            "publishedAt": "2023-06-30T17:22:21.4492709Z",
+            "content": "The US Supreme Court has struck down US President Joe Biden's proposal to wipe out billions in student debt. \r\nThe 6-3 ruling effectively cancels the plan, which would have forgiven about $10,000 (£7… [+4498 chars]"
         }
     ]
     constructor() {
@@ -83,15 +148,11 @@ export class News extends Component {
             <div className='container my-3'>
                 <h2>NewsMonkey - Top Headlines</h2>
                 <div className="row">
-                    <div className="col-md-4">
-                        <Newsitem title='myTitle' description='mydesc' imageUrl="https://www.reuters.com/resizer/rFHIq0GmCA1pqB8UWyWBSweb30g=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/J3PNOIJMWJL5XAY5PXNC7PCG3E.jpg" newsUrl="TODO"/>
-                    </div>
-                    <div className="col-md-4">
-                        <Newsitem title='myTitle' description='mydesc' />
-                    </div>
-                    <div className="col-md-4">
-                        <Newsitem title='myTitle' description='mydesc' />
-                    </div>
+                    {this.state.articles.map((element) => {
+                        return <div className="col-md-4" key={element.url}>
+                            <Newsitem title={element.title.slice(0, 45)} description={element.description.slice(0, 88)} imageUrl={element.urlToImage} newsUrl={element.url} />
+                        </div>
+                    })}
                 </div>
             </div>
         )
