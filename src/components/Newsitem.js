@@ -6,7 +6,7 @@ export class Newsitem extends Component {
         return (
             <div className='my-3'>
                 <div className="card">
-                    <span class="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{left:'85%'}}>
+                    <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{left:'85%'}}>
                         {source}
                     </span>
                     <img src={imageUrl ? imageUrl : "https://propertywiselaunceston.com.au/wp-content/themes/property-wise/images/no-image.png"} className="card-img-top" alt="..." />
